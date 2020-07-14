@@ -1,3 +1,1 @@
-RewriteEngine on
-RewriteBase /
-RewriteRule (.*) https://357gramm.com/$1 [R=301,L]
+redirectMatch 301 ^(.*)$ http://www.357gramm.com
