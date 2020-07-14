@@ -1,3 +1,3 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} xn--357-8cdo9ca3a.xn--p1ai
-RewriteRule (.*) http://357gramm.com/$1 [R=301,L]
+RewriteEngine on
+RewriteBase /
+RewriteRule (.*) https://357gramm.com/$1 [R=301,L]
